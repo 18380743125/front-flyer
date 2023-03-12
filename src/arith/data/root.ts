@@ -18,6 +18,7 @@ root.left = node1
 root.right = node2
 node2.left = node3
 node2.right = node4
+node3.left = new TreeNode(13)
 
 export default root
 
