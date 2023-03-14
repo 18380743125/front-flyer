@@ -1,5 +1,5 @@
-import { sroot } from "../data/root";
-import type { TreeNode } from "../data/root";
+import { sroot } from "../data/root"
+import type { TreeNode } from "../data/root"
 
 /**
  * 来源：牛客网 TOP101 题号: BM38
@@ -11,58 +11,54 @@ import type { TreeNode } from "../data/root";
  */
 function lowestCommonAncestor(root: TreeNode, p: number, q: number): number {
   // write code here
-  if (root === null) return -1;
-  const pPath: TreeNode[] = [];
-  const qPath: TreeNode[] = [];
-  getPath(root, p, pPath);
-  flag = false;
-  getPath(root, q, qPath);
-  let result: TreeNode | null = root;
+  if (root === null) return -1
+  const pPath: TreeNode[] = []
+  const qPath: TreeNode[] = []
+  getPath(root, p, pPath)
+  flag = false
+  getPath(root, q, qPath)
+  let result: TreeNode | null = root
   // 节点第一个不同就是最近的公共节点
   while (pPath.length > 0 && qPath.length > 0) {
-    const pNode = pPath.shift() || null;
-    const qNode = qPath.shift() || null;
-    if (pNode === qNode) result = pNode;
-    else break;
+    const pNode = pPath.shift() || null
+    const qNode = qPath.shift() || null
+    if (pNode === qNode) result = pNode
+    else break
   }
-  return result ? result.val : -1;
+  return result ? result.val : -1
 }
 
 // 路径是否结束
-let flag = false;
+let flag = false
 // 拿到从根节点开始到 target 的路径
 function getPath(node: TreeNode | null, target: number, path: TreeNode[]) {
-  if (flag || node === null) return;
-  path.push(node);
+  if (flag || node === null) return
+  path.push(node)
   if (node.val === target) {
-    flag = true;
-    return;
+    flag = true
+    return
   }
-  getPath(node.left, target, path);
-  getPath(node.right, target, path);
-  if (flag) return;
-  path.pop();
+  getPath(node.left, target, path)
+  getPath(node.right, target, path)
+  if (flag) return
+  path.pop()
 }
 
 // 递归写法
-function lowestCommonAncestor2(
-  root: TreeNode | null,
-  p: number,
-  q: number
-): number {
-  if (root === null) return -1;
+function lowestCommonAncestor2(root: TreeNode | null, p: number, q: number): number {
+  if (root === null) return -1
   // 找到 p 或 q
   if (root.val === p || root.val === q) {
-    return root.val;
+    return root.val
   }
-  const left = lowestCommonAncestor2(root.left, p, q);
-  const right = lowestCommonAncestor2(root.right, p, q);
+  const left = lowestCommonAncestor2(root.left, p, q)
+  const right = lowestCommonAncestor2(root.right, p, q)
   // 左侧没有 p 和 q
-  if (left === -1) return right;
+  if (left === -1) return right
   // 右侧没有 p 和 q
-  if (right === -1) return left;
+  if (right === -1) return left
   // 找到了最近公共祖先
-  return root.val;
+  return root.val
 }
 
-console.log(lowestCommonAncestor2(sroot, 6, 12));
+console.log(lowestCommonAncestor2(sroot, 6, 12))
