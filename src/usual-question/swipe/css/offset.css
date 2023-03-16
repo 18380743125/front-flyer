@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html,
+body {
+  background-color: #ddd;
+}
+
+.swipe {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.swipe .images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease;
+}
+
+.swipe .images .item {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+}
+
+.swipe .images .item img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swipe .control .prev, .swipe .control .next {
+  position: absolute;
+  top: 40%;
+  height: 60px;
+  width: 40px;
+  background-color: #777;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.swipe .control .prev {
+  left: 0;
+}
+
+.swipe .control .next {
+  right: 0;
+}
+
+.swipe .indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.swipe .indicator .item {
+  width: 8px;
+  height: 8px;
+  margin: 0 6px;
+  background-color: #aaa;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swipe .indicator .item.active {
+  background-color: red;
+}
+
+.swipe .indicator .item:hover {
+  background-color: red;
+}
