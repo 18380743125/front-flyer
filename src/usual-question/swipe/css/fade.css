@@ -4,12 +4,13 @@
   list-style: none;
 }
 
-html, body {
+html,
+body {
   background-color: #ddd;
   margin: 50px auto;
 }
 
-.swipe { 
+.swipe {
   width: 400px;
   height: 250px;
   margin: 0 auto;
@@ -45,7 +46,8 @@ html, body {
   transform: translateX(-50%);
 }
 
-.swipe .control .prev, .swipe .control .next {
+.swipe .control .prev,
+.swipe .control .next {
   position: absolute;
   top: 40%;
   height: 60px;

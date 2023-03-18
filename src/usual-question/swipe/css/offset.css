@@ -21,7 +21,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .swipe .images .item {
@@ -38,7 +38,8 @@ body {
   transform: translateX(-50%);
 }
 
-.swipe .control .prev, .swipe .control .next {
+.swipe .control .prev,
+.swipe .control .next {
   position: absolute;
   top: 40%;
   height: 60px;

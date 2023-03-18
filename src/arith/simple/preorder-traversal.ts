@@ -5,7 +5,7 @@ import type { TreeNode } from "../data/root"
  * 来源：牛客网 TOP101 题号: BM23
  * 前序遍历
  * @param root TreeNode类
- * @return int整型一维数组
+ * @return 整型一维数组
  */
 export function preorderTraversal(root: TreeNode): number[] {
   // write code here
