@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>位移滚动</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./iconfont/iconfont.css" />
+  </head>
+  <body>
+    <div class="swipe">
+      <!-- 图片 -->
+      <ul class="imgs">
+        <li class="item active">
+          <img src="./imgs/1.png" alt="" />
+        </li>
+        <li class="item">
+          <img src="./imgs/2.png" alt="" />
+        </li>
+        <li class="item">
+          <img src="./imgs/3.png" alt="" />
+        </li>
+        <li class="item">
+          <img src="./imgs/4.png" alt="" />
+        </li>
+        <li class="item">
+          <img src="./imgs/5.png" alt="" />
+        </li>
+      </ul>
+      <!-- 控制按钮 -->
+      <div class="controls">
+        <button data-type="prev" class="prev">
+          <i class="iconfont icon-prev"></i>
+        </button>
+        <button data-type="next" class="next">
+          <i class="iconfont icon-next"></i>
+        </button>
+      </div>
+      <!-- 指示器 -->
+      <ul class="indicator">
+        <li data-index="0" class="item active"></li>
+        <li data-index="1" class="item"></li>
+        <li data-index="2" class="item"></li>
+        <li data-index="3" class="item"></li>
+        <li data-index="4" class="item"></li>
+      </ul>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
