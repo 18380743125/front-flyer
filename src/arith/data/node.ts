@@ -27,6 +27,11 @@ node.next = n1;
 n1.next = n2;
 n2.next = n3;
 
+const pNode = new ListNode(6);
+const p1 = new ListNode(13);
+pNode.next = p1;
+p1.next = node3;
+
 const cycle = new ListNode(37);
 const q1 = new ListNode(6);
 const q2 = new ListNode(16);
@@ -35,4 +40,19 @@ cycle.next = q1;
 q1.next = q2;
 q2.next = q3;
 q3.next = q1;
-export { head, node, cycle };
+
+const a = new ListNode(1)
+const a1 = new ListNode(4)
+const a2 = new ListNode(0)
+const a3 = new ListNode(3)
+a.next = a1
+a1.next = a2
+a2.next = a3
+
+const b = new ListNode(1)
+const b1 = new ListNode(1)
+const b2 = new ListNode(3)
+b.next = b1
+b1.next = b2
+
+export { head, node, pNode, cycle, a, b };

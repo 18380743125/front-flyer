@@ -7,7 +7,7 @@ import { TreeNode } from "../data/root"
  * @param vin int整型一维数组 中序遍历
  * @return int整型一维数组
  */
-function rightView(pre: number[], vin: number[]): number[] {
+export function rightView(pre: number[], vin: number[]): number[] {
   // write code here
   const root = reconstruct(pre, vin)
   if (root === null) return []
@@ -27,7 +27,7 @@ function rightView(pre: number[], vin: number[]): number[] {
 }
 
 // 前序中序重建二叉树
-function reconstruct(pre: number[], vin: number[]): TreeNode | null {
+export function reconstruct(pre: number[], vin: number[]): TreeNode | null {
   if (pre.length === 0 || vin.length === 0) {
     return null
   }

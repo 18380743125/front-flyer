@@ -6,7 +6,7 @@ import type { TreeNode } from "../data/root"
  * 层次遍历
  * @param root
  */
-function levelOrder(root: TreeNode): number[][] {
+export function levelOrder(root: TreeNode): number[][] {
   // write code here
   const result: number[][] = []
   if (!root) return result

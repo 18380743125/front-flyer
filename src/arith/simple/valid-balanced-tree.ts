@@ -8,13 +8,13 @@ import type { TreeNode } from "../data/root"
  * @param root TreeNode类
  * @return bool布尔型
  */
-function isBalancedTree(root: TreeNode): boolean {
+export function isBalancedTree(root: TreeNode): boolean {
   // write code here
   if (root === null) return true
   return dfs(root) !== -1
 }
 
-function dfs(root: TreeNode | null): number {
+export function dfs(root: TreeNode | null): number {
   if (root === null) return 0
   const leftHeight = dfs(root.left || null)
   if (leftHeight === -1) {

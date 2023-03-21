@@ -7,7 +7,7 @@ import type { TreeNode } from "../data/root"
  * @param root TreeNode类
  * @return bool布尔型
  */
-function isSymmetrical(root: TreeNode): boolean {
+export function isSymmetrical(root: TreeNode): boolean {
   // write code here
   if (root === null) return true
   const queue1: Array<TreeNode | null> = []

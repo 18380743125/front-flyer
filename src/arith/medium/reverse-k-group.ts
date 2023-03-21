@@ -8,7 +8,7 @@ import { getSize, print, reverseLinklist } from "../utils/linklist.util";
  * @param k int整型
  * @return ListNode类
  */
-function reverseKGroup(head: ListNode, k: number): ListNode {
+export function reverseKGroup(head: ListNode, k: number): ListNode {
   // write code here
   if (head === null) return head;
   // 链表长度

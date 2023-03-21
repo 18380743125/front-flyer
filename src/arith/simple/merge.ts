@@ -8,7 +8,7 @@ import { print } from "../utils/linklist.util";
  * @param head2 ListNode类
  * @return ListNode类
  */
-function merge(
+export function merge(
   head1: ListNode | null,
   head2: ListNode | null
 ): ListNode | null {

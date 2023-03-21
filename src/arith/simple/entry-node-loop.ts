@@ -6,12 +6,12 @@ import { head, cycle, ListNode } from "../data/node";
  * @param head ListNode类
  * @return ListNode类
  */
-function entryNodeOfLoop(head: ListNode): ListNode | null {
+export function entryNodeOfLoop(head: ListNode): ListNode | null {
   // write code here
   let slow: ListNode | null = head;
   let fast: ListNode | null = head;
   while (fast !== null) {
-    if (fast === null || fast.next === null || fast.next.next === null) {
+    if (fast.next === null || fast.next.next === null) {
       return null;
     }
     slow = slow?.next || null;

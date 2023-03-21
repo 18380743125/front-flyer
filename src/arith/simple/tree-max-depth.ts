@@ -7,7 +7,7 @@ import type { TreeNode } from "../data/root"
  * @param root TreeNode类
  * @return int整型
  */
-function maxDepth(root: TreeNode | null): number {
+export function maxDepth(root: TreeNode | null): number {
   // write code here
   if (root === null) return 0
   const leftHeight = maxDepth(root.left)

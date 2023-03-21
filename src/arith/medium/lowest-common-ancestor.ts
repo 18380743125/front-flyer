@@ -9,7 +9,7 @@ import type { TreeNode } from "../data/root"
  * @param q int整型
  * @return int整型
  */
-function lowestCommonAncestor(root: TreeNode, p: number, q: number): number {
+export function lowestCommonAncestor(root: TreeNode, p: number, q: number): number {
   // write code here
   if (root === null) return -1
   const pPath: TreeNode[] = []
@@ -31,7 +31,7 @@ function lowestCommonAncestor(root: TreeNode, p: number, q: number): number {
 // 路径是否结束
 let flag = false
 // 拿到从根节点开始到 target 的路径
-function getPath(node: TreeNode | null, target: number, path: TreeNode[]) {
+export function getPath(node: TreeNode | null, target: number, path: TreeNode[]) {
   if (flag || node === null) return
   path.push(node)
   if (node.val === target) {
@@ -45,7 +45,7 @@ function getPath(node: TreeNode | null, target: number, path: TreeNode[]) {
 }
 
 // 递归写法
-function lowestCommonAncestor2(root: TreeNode | null, p: number, q: number): number {
+export function lowestCommonAncestor2(root: TreeNode | null, p: number, q: number): number {
   if (root === null) return -1
   // 找到 p 或 q
   if (root.val === p || root.val === q) {

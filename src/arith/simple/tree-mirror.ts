@@ -4,7 +4,7 @@ import type { TreeNode } from "../data/root"
 /**
  * 来源：牛客网 TOP101 题号: BM33
  * 二叉树的镜像
- * @param pRoot TreeNode类
+ * @param root TreeNode类
  * @return TreeNode类
  */
 export function mirror(root: TreeNode): TreeNode {

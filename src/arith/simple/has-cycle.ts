@@ -6,7 +6,7 @@ import { cycle, head, ListNode } from "../data/node";
  * @param head ListNode类
  * @return boolean
  */
-function hasCycle(head: ListNode): boolean {
+export function hasCycle(head: ListNode): boolean {
   // write code here
   if (head === null || head.next === null) return false;
   let slow: ListNode = head;

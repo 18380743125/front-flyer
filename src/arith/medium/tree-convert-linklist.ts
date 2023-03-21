@@ -7,7 +7,7 @@ import type { TreeNode } from "../data/root"
  * @param root TreeNode类
  * @return TreeNode类
  */
-function convert(root: TreeNode): TreeNode {
+export function convert(root: TreeNode): TreeNode {
   // write code here
   if (root === null) return root
   const stack: TreeNode[] = []

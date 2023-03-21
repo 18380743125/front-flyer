@@ -8,7 +8,7 @@ import type { TreeNode } from "../data/root"
  * @param sum int整型
  * @return bool布尔型
  */
-function hasPathSum(root: TreeNode | null, sum: number): boolean {
+export function hasPathSum(root: TreeNode | null, sum: number): boolean {
   // write code here
   if (root === null) return false
   sum -= root.val

@@ -6,7 +6,7 @@
  * @return int整型
  */
 
-function maxProfit(prices: number[]): number {
+export function maxProfit(prices: number[]): number {
   // write code here
   const n = prices.length
   if (n === 0) return 0

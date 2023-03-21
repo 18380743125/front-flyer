@@ -6,7 +6,7 @@
  * @param startEnd startEnd[i][0]用于表示第i个活动的开始时间，startEnd[i][1]表示第i个活动的结束时间
  * @return number
  */
-function minHost(n: number, startEnd: number[][]): number {
+export function minHost(n: number, startEnd: number[][]): number {
   // write code here
   const start = startEnd.map((item) => item[0]);
   const end = startEnd.map((item) => item[1]);

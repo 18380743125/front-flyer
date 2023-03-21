@@ -9,7 +9,7 @@ import type { TreeNode } from "../data/root"
  * @param q int整型
  * @return int整型
  */
-function lowestCommonAncestor(root: TreeNode, p: number, q: number): number {
+export function lowestCommonAncestor(root: TreeNode, p: number, q: number): number {
   // write code here
   if (root === null) return -1
   const pPath = getPath(root, p)
@@ -25,7 +25,7 @@ function lowestCommonAncestor(root: TreeNode, p: number, q: number): number {
 }
 
 //获取路径
-function getPath(root: TreeNode | null, target: number): TreeNode[] {
+export function getPath(root: TreeNode | null, target: number): TreeNode[] {
   const path: Array<TreeNode> = []
   path.push(root as TreeNode)
   while (root !== null) {
@@ -43,7 +43,7 @@ function getPath(root: TreeNode | null, target: number): TreeNode[] {
 }
 
 // 递归版本
-function lowestCommonAncestor2(root: TreeNode | null, p: number, q: number): number {
+export function lowestCommonAncestor2(root: TreeNode | null, p: number, q: number): number {
   if (root === null) return -1
   if ((root.val >= p && root.val <= q) || (root.val <= p && root.val >= q)) {
     return root.val

@@ -9,7 +9,7 @@ import { TreeNode } from "../data/root"
  * @param r2 TreeNode类
  * @return TreeNode类
  */
-function mergeTrees(r1: TreeNode, r2: TreeNode): TreeNode {
+export function mergeTrees(r1: TreeNode, r2: TreeNode): TreeNode {
   // write code here
   if (r1 === null) return r2
   if (r2 === null) return r1
@@ -62,7 +62,7 @@ function mergeTrees(r1: TreeNode, r2: TreeNode): TreeNode {
 }
 
 // 递归版本
-function mergeTree2(r1: TreeNode | null, r2: TreeNode | null): TreeNode | null {
+export function mergeTree2(r1: TreeNode | null, r2: TreeNode | null): TreeNode | null {
   if (r1 === null) return r2
   if (r2 === null) return r1
   const root = new TreeNode(r1.val + r2.val)
