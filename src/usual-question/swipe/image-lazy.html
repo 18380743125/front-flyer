@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>image-lazy</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .list {
+        width: 960px;
+        margin: 0 auto;
+        color: #fff;
+      }
+      .list .item {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+        background-color: #1d1d1d;
+      }
+      .list .item img {
+        width: 300px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="list">
+      <div class="item">
+        <h2>hello</h2>
+      </div>
+      <div class="item">
+        <h2>hello</h2>
+      </div>
+      <div class="item">
+        <h2>hello</h2>
+      </div>
+      <div class="item">
+        <h2>hello1</h2>
+        <img data-src="./images/1.png" alt="" />
+      </div>
+      <div class="item">
+        <h2>hello2</h2>
+        <img data-src="./images/2.png" alt="" />
+      </div>
+      <div class="item">
+        <h2>hello3</h2>
+        <img data-src="./images/3.png" alt="" />
+      </div>
+      <div class="item">
+        <h2>hello4</h2>
+        <img data-src="./images/4.png" alt="" />
+      </div>
+      <div class="item">
+        <h2>hello5</h2>
+        <img data-src="./images/5.png" alt="" />
+      </div>
+    </div>
+
+    <script src="./js/image-lazy.js"></script>
+  </body>
+</html>
