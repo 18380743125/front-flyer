@@ -1,13 +1,13 @@
-// 双向链表节点
+// 节点
 export class Node {
   public key: string;
-  public val: number;
-  public pre: Node | null;
+  public value: number;
+  public prev: Node | null;
   public next: Node | null;
-  constructor(key: string, val: number) {
+  constructor(key: string, value: number) {
     this.key = key;
-    this.val = val;
-    this.pre = null;
+    this.value = value;
+    this.prev = null;
     this.next = null;
   }
 }
@@ -15,80 +15,70 @@ export class Node {
 export class LRU {
   private capacity: number;
   private size: number;
-  private obj: Record<string, Node>;
+  private cacheObj: Record<string, Node>;
   public head: Node;
   private tail: Node;
   constructor(capacity: number) {
     this.size = 0;
     this.capacity = capacity;
-    this.obj = {};
+    this.cacheObj = {};
     this.head = new Node("head", -1);
     this.tail = new Node("tail", -1);
     this.head.next = this.tail;
-    this.tail.pre = this.head;
+    this.tail.prev = this.head;
   }
 
-  get(key: string) {
-    const node = this.obj[key] || null;
-    this.moveToHead(node);
-    if (node === null) return -1;
-    else return node.val;
-  }
-
-  set(key: string, val: number) {
-    let node = this.obj[key] || null;
+  get(key: string): number {
+    const node = this.cacheObj[key] || null;
     if (node !== null) {
-      node.val = val;
+      this.moveToHead(node);
+      return node.value;
+    }
+    return -1;
+  }
+
+  set(key: string, value: number): void {
+    let node = this.cacheObj[key] || null;
+    if (node !== null) {
+      node.value = value;
       this.moveToHead(node);
     } else {
-      node = new Node(key, val);
-      this.obj[key] = node;
+      node = new Node(key, value);
       if (this.capacity === this.size) {
-        // 容量已满, 移出最近最少使用
         this.removeLastNode();
-        this.size--;
+      } else {
+        this.size++;
       }
-      this.size++;
-      this.insertHead(node);
+      this.appendAfter(node, this.head);
+      this.cacheObj[key] = node;
     }
   }
 
-  // 插入到头部
-  insertHead(node: Node) {
-    node.pre = this.head;
-    node.next = this.head.next;
-    if (this.head.next?.pre) {
-      this.head.next.pre = node;
-    }
-    this.head.next = node;
+  appendAfter(node: Node, target: Node): void {
+    const targetNext = target.next as Node;
+    node.prev = target;
+    target.next = node;
+    node.next = targetNext;
+    targetNext.prev = node;
   }
 
-  // 移动节点到头部
-  moveToHead(node: Node) {
-    if (node === null) return;
+  moveToHead(node: Node): void {
     this.removeNode(node);
-    this.insertHead(node);
+    this.appendAfter(node, this.head);
   }
 
-  // 移除最后一个节点
-  removeLastNode() {
+  removeLastNode(): void {
     if (this.head.next === this.tail) return;
-    const node = this.tail.pre as Node;
+    const node = this.tail.prev as Node;
     this.removeNode(node);
-    delete this.obj[node.key];
+    delete this.cacheObj[node.key];
   }
 
-  // 移除节点
-  removeNode(node: Node | null) {
-    if (node === null) return;
-    if (node.pre) {
-      node.pre.next = node.next;
-    }
-    if (node.next) {
-      node.next.pre = node.pre;
-    }
-    node.pre = null;
-    node.next = null;
+  removeNode(node: Node): void {
+    const nodePrev = node.prev as Node;
+    const nodeNext = node.next as Node;
+    nodePrev.next = nodeNext;
+    nodeNext.prev = nodePrev;
   }
 }
 

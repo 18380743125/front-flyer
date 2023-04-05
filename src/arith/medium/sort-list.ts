@@ -16,7 +16,7 @@ export function sortInList(head: ListNode): ListNode | null {
   while (right !== null && right.next !== null) {
     left = left.next as ListNode;
     mid = mid.next as ListNode;
-    right = right.next;
+    right = right.next.next;
   }
   left.next = null;
   return mergeTwoList(sortInList(head), sortInList(mid));
@@ -39,7 +39,7 @@ export function mergeTwoList(
     curr = curr.next;
   }
   if (l1 !== null) curr.next = l1;
-  else curr.next = l2;
+  if (l2 !== null) curr.next = l2;
   return dummy.next;
 }
 

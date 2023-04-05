@@ -62,7 +62,7 @@ export class LFUCache {
     return -1;
   }
 
-  put(key: number, value: number) {
+  put(key: number, value: number): void {
     let node = this.cacheMap[key] || null;
     if (node !== null) {
       node.value = value;
@@ -80,14 +80,14 @@ export class LFUCache {
     }
   }
 
-  removeLowUseCacheNode() {
+  removeLowUseCacheNode(): void {
     const node = this.freqTail.prev?.cacheTail?.prev as CacheNode;
     this.removeNode(node);
     delete this.cacheMap[node.key as number];
     this.removeFreqNodeWhenEmpty(node.freq);
   }
 
-  moveToNextFreqNode(node: CacheNode) {
+  moveToNextFreqNode(node: CacheNode): void {
     const freq = node.freq;
     const freqNode = this.getFreqNode(freq + 1, this.freqMap[freq]);
     this.removeNode(node);
@@ -96,7 +96,7 @@ export class LFUCache {
     this.removeFreqNodeWhenEmpty(freq);
   }
 
-  getFreqNode(freq: number, target: FreqNode) {
+  getFreqNode(freq: number, target: FreqNode): FreqNode {
     let freqNode = this.freqMap[freq] || null;
     if (freqNode === null) {
       freqNode = new FreqNode(freq);
@@ -106,7 +106,7 @@ export class LFUCache {
     return freqNode;
   }
 
-  removeFreqNodeWhenEmpty(freq: number) {
+  removeFreqNodeWhenEmpty(freq: number): void {
     const freqNode = this.freqMap[freq] || null;
     if (freqNode === null) return;
     if (freqNode.cacheHead.next === freqNode.cacheTail) {
@@ -115,7 +115,7 @@ export class LFUCache {
     }
   }
 
-  insertBefore(node: Node, target: Node) {
+  insertBefore(node: Node, target: Node): void {
     const targetPrev = target.prev as Node;
     node.next = target;
     target.prev = node;
@@ -123,7 +123,7 @@ export class LFUCache {
     targetPrev.next = node;
   }
 
-  appendAfter(node: Node, target: Node) {
+  appendAfter(node: Node, target: Node): void {
     const targetNext = target.next as Node;
     node.prev = target;
     target.next = node;
@@ -131,7 +131,7 @@ export class LFUCache {
     targetNext.prev = node;
   }
 
-  removeNode(node: Node) {
+  removeNode(node: Node): void {
     const nodePrev = node.prev as Node;
     const nodeNext = node.next as Node;
     nodePrev.next = nodeNext;
