@@ -3,7 +3,7 @@
  * 旋转数组
  * @param n number 数组长度
  * @param m number 右移距离
- * @param a number[] 给定数组
+ * @param arr number[] 给定数组
  * @return 数组
  */
 export function rotate(n: number, m: number, arr: number[]): number[] {
