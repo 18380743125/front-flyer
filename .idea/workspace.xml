@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e741fa-42a6-467d-a1bf-e53676d73717" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/binary-search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/generate-matrix.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/min-sub-array-len.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/remove-element.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/sorted-squares.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case/animation/a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/one-question-a-day.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/data/node.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/arith/data/node.ts" afterDir="false" />
+    <list default="true" id="51e741fa-42a6-467d-a1bf-e53676d73717" name="Changes" comment="feat:array related">
+      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/common-substring.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/expression-compute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/min-k-nums.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arith/utils/heap-sort.util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,7 +52,7 @@
     &quot;editorconfig.notification&quot;: &quot;lf &quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.20.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.37&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.38&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Project/front-end/other/one-question-a-day&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -73,10 +63,15 @@
     &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Environment\\nodejs\\node_modules\\prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\软件\\JetBrains\\WebStorm 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Project\\front-end\\other\\one-question-a-day\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\front-end\other\one-question-a-day\src\arith\code-capriccio" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,8 +85,18 @@
       <workItem from="1688098011758" duration="2243000" />
       <workItem from="1688112232789" duration="629000" />
       <workItem from="1688112875754" duration="6258000" />
-      <workItem from="1688121360824" duration="1276000" />
+      <workItem from="1688121360824" duration="1497000" />
+      <workItem from="1688198196441" duration="5685000" />
+      <workItem from="1688263937979" duration="6159000" />
     </task>
+    <task id="LOCAL-00001" summary="feat:array related">
+      <created>1688122679777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688122679777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat:array related" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:array related" />
   </component>
 </project>
