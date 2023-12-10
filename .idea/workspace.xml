@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e741fa-42a6-467d-a1bf-e53676d73717" name="Changes" comment="feat:array related">
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/common-substring.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/expression-compute.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/min-k-nums.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arith/utils/heap-sort.util.ts" afterDir="false" />
+    <list default="true" id="51e741fa-42a6-467d-a1bf-e53676d73717" name="Changes" comment="feat:common-substring &amp; min-k etc.">
+      <change afterPath="$PROJECT_DIR$/src/arith/code-capriccio/kmp.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arith/other/dullStack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/arith/other/dullStack.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,30 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;editorconfig.notification&quot;: &quot;lf &quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.20.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.38&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Project/front-end/other/one-question-a-day&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Environment\\nodejs\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Project\\front-end\\other\\one-question-a-day\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "editorconfig.notification": "lf ",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "16.20.0",
+    "javascript.nodejs.core.library.typings.version": "16.18.38",
+    "last_opened_file_path": "C:/Users/25050/Desktop/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Environment\\nodejs\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Project\\front-end\\other\\one-question-a-day\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project\front-end\other\one-question-a-day\src\arith\code-capriccio" />
@@ -87,7 +83,13 @@
       <workItem from="1688112875754" duration="6258000" />
       <workItem from="1688121360824" duration="1497000" />
       <workItem from="1688198196441" duration="5685000" />
-      <workItem from="1688263937979" duration="6159000" />
+      <workItem from="1688263937979" duration="6558000" />
+      <workItem from="1688281058987" duration="35000" />
+      <workItem from="1688281100570" duration="1723000" />
+      <workItem from="1688305482644" duration="835000" />
+      <workItem from="1688613386022" duration="1674000" />
+      <workItem from="1688782995425" duration="615000" />
+      <workItem from="1688821596712" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="feat:array related">
       <created>1688122679777</created>
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688122679777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat:common-substring &amp; min-k etc.">
+      <created>1688271378996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688271378996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat:array related" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:array related" />
+    <MESSAGE value="feat:common-substring &amp; min-k etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:common-substring &amp; min-k etc." />
   </component>
 </project>

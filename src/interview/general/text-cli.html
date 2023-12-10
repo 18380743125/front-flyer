@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box1 {
+      width: 300px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .box2 {
+      width: 300px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1">link 属于 html 标签，@import 在 css 中使用表示导入外部样式表；</div>
+  <hr />
+  <div class="box2">页面被加载时，link 会同时被加载，而 @import 引用 css 会等到页面被加载完再加载；</div>
+</body>
+
+</html>

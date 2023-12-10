@@ -97,4 +97,5 @@ function init(autoPlay) {
   }
   if (autoPlay) startAutoplay();
 }
+
 init(autoPlay);
