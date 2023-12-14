@@ -26,3 +26,5 @@ function nextGreaterElements(nums: number[]): number[] {
 const nums = [1, 2, 3, 4, 3];
 const result = nextGreaterElements(nums);
 console.log(result);
+
+export {}
