@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #d6e4ff;
+}
+
+.list {
+  background: #2f54eb;
+  margin: 0 auto;
+  color: white;
+  list-style: none;
+  height: 40px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.list li {
+  height: 40px;
+  line-height: 40px;
+}
