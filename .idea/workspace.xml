@@ -5,100 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51e741fa-42a6-467d-a1bf-e53676d73717" name="Changes" comment="feat:common-substring &amp; min-k etc.">
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/img/btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/img/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/img/t1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/img/t2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/img/t3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/img/t4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/img/t5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/image-drag/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/text-scroll/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/text-scroll/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/text-scroll/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/my-linked-list.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/remove-elements.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/banner-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/center_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/center_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/start_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/binary-search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/array/binary-search.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/common-substring.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/string/common-substring.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dp/climb-stairs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dp/climb-stairs.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dp/fib.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dp/fib.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dp/integer-break.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dp/integer-break.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dp/num-trees.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dp/num-trees.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dp/unique-paths-with-obstacles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dp/unique-paths-with-obstacles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dp/unique-paths.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dp/unique-paths.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dull-stack/daily-temperatures.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dull-stack/daily-temperatures.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dull-stack/largest-rectangle-area.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dull-stack/largest-rectangle-area.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dull-stack/next-greater-element1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dull-stack/next-greater-element1.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dull-stack/next-greater-element2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dull-stack/next-greater-element2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/dull-stack/trap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/dull-stack/trap.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/expression-compute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/string/expression-compute.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/generate-matrix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/array/generate-matrix.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/kmp.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/string/kmp.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/min-k-nums.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/array/min-k-nums.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/min-sub-array-len.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/array/min-sub-array-len.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/remove-element.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/array/remove-element.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/capriccio/sorted-squares.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/array/sorted-squares.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/data/node.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/data/node.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/data/root.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/data/root.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/hard/LFU.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/LFU.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/hard/LRU.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/LRU.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/hard/max-profit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/max-profit.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/hard/merge-k-lists.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/merge-k-lists.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/hard/min-window.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/min-window.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/hard/pick-candy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/pick-candy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/hard/serialize-tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/serialize-tree.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/addInList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/addInList.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/big-num-add.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/big-num-add.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/delete-duplicates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/delete-duplicates.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/host-schedule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/host-schedule.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/length-lis.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/length-lis.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/level-order-traversal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/level-order-traversal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/lowest-common-ancestor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/lowest-common-ancestor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/max-profit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/max-profit.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/maxlen-norepeat-subarray.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/maxlen-norepeat-subarray.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/merge-range.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/merge-range.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/odd-even-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/odd-even-list.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/reconstruct-tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/reconstruct-tree.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/remove-nth-end.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/remove-nth-end.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/reverse-between.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/reverse-between.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/reverse-k-group.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/reverse-k-group.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/right-view.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/right-view.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/rotate-matrix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/rotate-matrix.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/sort-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/sort-list.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/tree-convert-linklist.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/tree-convert-linklist.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/tree-z-traversal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/tree-z-traversal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/valid-bst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/valid-bst.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/medium/valid-complete-tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/valid-complete-tree.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/compare-version.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/compare-version.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/delete-duplicates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/delete-duplicates.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/dullStack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/dullStack.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/entry-node-loop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/entry-node-loop.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/find-first-common-node.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/find-first-common-node.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/find-kth-tail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/find-kth-tail.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/has-cycle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/has-cycle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/has-path-sum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/has-path-sum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/inorder-traversal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/inorder-traversal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/is-pair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/is-pair.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/longest-common-prefix.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/longest-common-prefix.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/lowest-common-ancestor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/lowest-common-ancestor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/max-profit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/max-profit.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/merge-sort-arr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/merge-sort-arr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/merge-tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/merge-tree.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/merge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/merge.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/postorder-traversal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/postorder-traversal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/preorder-traversal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/preorder-traversal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/reverse-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/reverse-list.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/rotate-array.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/rotate-array.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/spiral-order.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/spiral-order.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/string-transform.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/string-transform.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/tree-max-depth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/tree-max-depth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/tree-mirror.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/tree-mirror.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/tree-symmetrical.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/tree-symmetrical.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/simple/valid-balanced-tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/valid-balanced-tree.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/utils/heap-sort.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/utils/heap-sort.util.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arith/exercise/utils/linklist.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/utils/linklist.util.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/animation/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,33 +68,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "editorconfig.notification": "lf ",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.11.0",
-    "javascript.nodejs.core.library.typings.version": "20.11.16",
-    "last_opened_file_path": "D:/work/xjrVue_3.0.0.3_pro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Environment\\nodejs\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "D:\\other\\some-case\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;editorconfig.notification&quot;: &quot;lf &quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/other/some-case/src/examples/points-draw&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Environment\\nodejs\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\other\\some-case\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\other\some-case\src\examples\points-draw" />
       <recent name="D:\other\some-case\src\examples\image-drag\img" />
       <recent name="D:\other\some-case\src\examples\image-drag" />
       <recent name="D:\other\some-case\src\examples\text-scroll" />
@@ -203,7 +140,9 @@
       <workItem from="1709265181280" duration="1543000" />
       <workItem from="1709269897070" duration="6043000" />
       <workItem from="1709276373773" duration="126000" />
-      <workItem from="1709276505201" duration="3954000" />
+      <workItem from="1709276505201" duration="4412000" />
+      <workItem from="1709516281235" duration="5568000" />
+      <workItem from="1709533458410" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="feat:array related">
       <created>1688122679777</created>
@@ -224,6 +163,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
