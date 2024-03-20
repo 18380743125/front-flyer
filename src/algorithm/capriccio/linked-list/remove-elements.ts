@@ -1,4 +1,4 @@
-import { ListNode } from './utils';
+import { ListNode, print } from './linklist.util';
 
 /**
  * 给你一个链表的头节点 head 和一个整数 val。请你删除链表中所有满足 Node.val == val 的节点，
@@ -9,9 +9,9 @@ import { ListNode } from './utils';
 export function removeElements(head: ListNode | null, val: number): ListNode | null {
   const dummy = new ListNode();
   dummy.next = head;
-  let currentNode: ListNode | null | undefined = dummy;
-  while (currentNode?.next !== null) {
-    if (currentNode?.next.val === val) {
+  let currentNode: ListNode = dummy;
+  while (currentNode.next !== null) {
+    if (currentNode.next.val === val) {
       currentNode.next = currentNode.next.next;
     } else {
       currentNode = currentNode?.next;
@@ -36,4 +36,5 @@ node5.next = node6;
 node6.next = node7;
 
 const head = removeElements(node1, 6);
-console.log(head);
+
+print(head);

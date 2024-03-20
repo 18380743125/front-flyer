@@ -1,5 +1,5 @@
 import { ListNode, a, b } from "../data/node";
-import { print, reverseLinklist } from "../../utils/linklist.util";
+import { print, reverseLinklist } from "../../capriccio/linked-list/linklist.util";
 
 /**
  * 来源：牛客网 TOP101 题号: BM11

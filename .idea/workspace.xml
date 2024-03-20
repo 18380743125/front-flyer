@@ -5,35 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51e741fa-42a6-467d-a1bf-e53676d73717" name="Changes" comment="feat:common-substring &amp; min-k etc.">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/my-linked-list.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/remove-elements.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/banner-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/center_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/center_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/prize_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/img/start_btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/points-draw/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/swap-pairs.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/btn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/img/t5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/img/t5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/image-drag/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/drag-verify/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/my-linked-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/my-linked-list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/remove-elements.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/remove-elements.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/hard/merge-k-lists.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/hard/merge-k-lists.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/medium/addInList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/addInList.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/medium/delete-duplicates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/delete-duplicates.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/medium/odd-even-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/odd-even-list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/medium/remove-nth-end.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/remove-nth-end.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/medium/reverse-k-group.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/reverse-k-group.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/medium/sort-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/medium/sort-list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/simple/delete-duplicates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/delete-duplicates.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/simple/find-first-common-node.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/find-first-common-node.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/simple/find-kth-tail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/find-kth-tail.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/simple/is-pair.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/is-pair.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/problem/simple/merge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/problem/simple/merge.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/utils/linklist.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/capriccio/linked-list/linklist.util.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +69,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.16&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/other/some-case/src/examples/points-draw&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/other/some-case&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -102,11 +91,11 @@
       <recent name="D:\other\some-case\src\examples\text-scroll" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\other\some-case\src\algorithm\capriccio\linked-list" />
       <recent name="D:\other\some-case\src\algorithm\capriccio\array" />
       <recent name="D:\other\some-case\src\algorithm\capriccio\string" />
       <recent name="D:\other\some-case\src" />
       <recent name="D:\other\some-case\src\examples" />
-      <recent name="D:\other\some-case\src\arith" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -143,6 +132,11 @@
       <workItem from="1709276505201" duration="4412000" />
       <workItem from="1709516281235" duration="5568000" />
       <workItem from="1709533458410" duration="14000" />
+      <workItem from="1709623780606" duration="1194000" />
+      <workItem from="1709715931636" duration="1528000" />
+      <workItem from="1709771415213" duration="12000" />
+      <workItem from="1710290331863" duration="3224000" />
+      <workItem from="1710308699047" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="feat:array related">
       <created>1688122679777</created>

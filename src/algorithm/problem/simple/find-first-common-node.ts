@@ -1,6 +1,6 @@
 import type { ListNode } from "../data/node";
 import { head, pNode } from "../data/node";
-import { print } from "../../utils/linklist.util";
+import { print } from "../../capriccio/linked-list/linklist.util";
 
 /**
  * 来源：牛客网 TOP101 题号: BM10

@@ -1,5 +1,5 @@
-import { head, ListNode } from "../data/node";
-import { getSize, print, reverseLinklist } from "../../utils/linklist.util";
+import { head, ListNode } from '../data/node';
+import { getSize, print, reverseLinklist } from '../../capriccio/linked-list/linklist.util';
 
 /**
  * 来源：牛客网 TOP101 题号: BM3
@@ -10,7 +10,9 @@ import { getSize, print, reverseLinklist } from "../../utils/linklist.util";
  */
 export function reverseKGroup(head: ListNode, k: number): ListNode {
   // write code here
-  if (head === null) return head;
+  if (head === null) {
+    return head;
+  }
   // 链表长度
   const size = getSize(head);
   let dummy = new ListNode(-1);
@@ -31,4 +33,4 @@ export function reverseKGroup(head: ListNode, k: number): ListNode {
 }
 
 const node = reverseKGroup(head, 2);
-print(node)
+print(node);

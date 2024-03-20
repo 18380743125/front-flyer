@@ -1,7 +1,18 @@
-import { ListNode } from "../problem/data/node";
+/**
+ * 节点（单链表）
+ */
+export class ListNode {
+  val: number;
+  next: ListNode | null;
+
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = (val === undefined ? 0 : val);
+    this.next = (next === undefined ? null : next);
+  }
+}
 
 /**
- * 遍历链表
+ * 打印链表
  * @param head
  */
 export function print(head: ListNode | null): void {
@@ -10,7 +21,7 @@ export function print(head: ListNode | null): void {
     result.push(head.val);
     head = head.next;
   }
-  console.log(result);
+  console.log(result.join('，'));
 }
 
 /**
@@ -31,9 +42,11 @@ export function getSize(head: ListNode | null): number {
  * @param head
  */
 export function copy(head: ListNode | null): ListNode | null {
-  if (head === null) return null;
-  const dummy = new ListNode(-1);
-  let curr: ListNode | null = dummy;
+  if (head === null) {
+    return null;
+  }
+  const dummy = new ListNode();
+  let curr: ListNode = dummy;
   while (head !== null) {
     curr.next = new ListNode(head.val);
     head = head.next;
@@ -47,7 +60,7 @@ export function copy(head: ListNode | null): ListNode | null {
  * @param head
  */
 export function reverseLinklist(head: ListNode | null): Array<ListNode | null> {
-  if (head === null) return [head, head];
+  if (head === null || head.next === null) return [head, head];
   let pre: ListNode | null = null;
   let curr: ListNode | null = head;
   while (curr !== null) {
@@ -56,5 +69,6 @@ export function reverseLinklist(head: ListNode | null): Array<ListNode | null> {
     pre = curr;
     curr = next;
   }
+  // 新的 [head, tail]
   return [pre, head];
 }

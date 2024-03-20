@@ -1,7 +1,10 @@
-import { ListNode } from './utils';
+import { ListNode } from './linklist.util';
 
+/**
+ * 设计单链表带头节点
+ */
 export class MyLinkedList {
-  private head: ListNode;
+  private readonly head: ListNode;
 
   constructor() {
     this.head = new ListNode();
@@ -39,6 +42,7 @@ export class MyLinkedList {
       return;
     }
     let currNode: ListNode | null = this.head;
+    // 找到要插入位置的前一个节点
     while (currNode !== null && index > 0) {
       currNode = currNode.next;
       index--;

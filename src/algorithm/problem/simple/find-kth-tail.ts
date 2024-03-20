@@ -1,5 +1,5 @@
 import type { ListNode } from "../data/node";
-import { getSize, print } from "../../utils/linklist.util";
+import { getSize, print } from "../../capriccio/linked-list/linklist.util";
 import { head } from "../data/node";
 
 /**
