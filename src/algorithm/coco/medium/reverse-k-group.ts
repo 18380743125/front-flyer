@@ -1,5 +1,5 @@
 import { head, ListNode } from '../data/node';
-import { getSize, print, reverseLinklist } from '../../capriccio/linked-list/linklist.util';
+import { getSize, print, reverseLinklist } from '../../utils/linklist.util';
 
 /**
  * 来源：牛客网 TOP101 题号: BM3

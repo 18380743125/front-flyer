@@ -14,14 +14,15 @@ export class ListNode {
 /**
  * 打印链表
  * @param head
+ * @param tip
  */
-export function print(head: ListNode | null): void {
+export function print(head: ListNode | null, tip: string = ''): void {
   const result: number[] = [];
   while (head !== null) {
     result.push(head.val);
     head = head.next;
   }
-  console.log(result.join('，'));
+  console.log(`${tip}${result.join('，')}`);
 }
 
 /**
