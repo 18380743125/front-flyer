@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 创建媒体元素
+      const video = document.createElement('video');
+      document.body.appendChild(video);
+
+      // 设置媒体源
+      const mediaSource = new MediaSource();
+      video.src = URL.createObjectURL(mediaSource);
+
+      // 当媒体源打开时，添加源缓冲区
+      mediaSource.addEventListener('sourceopen', function () {
+        const sourceBuffer = mediaSource.addSourceBuffer('video/webm; codecs="opus,vp09.00.10.08"');
+
+        // 在获取许可证和解密密钥后，将加密的视频数据添加到源缓冲区
+        fetch('your_encrypted_video.webm')
+          .then((response) => response.arrayBuffer())
+          .then((data) => {
+            sourceBuffer.appendBuffer(data);
+          });
+      });
+
+      // 设置媒体键系统访问
+      navigator
+        .requestMediaKeySystemAccess('org.w3.clearkey', [
+          {
+            initDataTypes: ['keyids'],
+            videoCapabilities: [{ contentType: 'video/webm; codecs="vp09.00.10.08"' }]
+          }
+        ])
+        .then(function (mediaKeySystemAccess) {
+          return mediaKeySystemAccess.createMediaKeys();
+        })
+        .then(function (mediaKeys) {
+          // 设定用于解密的媒体密钥
+          video.setMediaKeys(mediaKeys);
+
+          // 创建一个keySession，它将用于获取许可证和解密密钥
+          const keySession = mediaKeys.createSession();
+
+          // 监听message事件以获取解密密钥
+          keySession.addEventListener('message', function (e) {
+            // fetch许可证和解密密钥
+            fetch('your_license_and_key_url', {
+              method: 'POST',
+              body: e.message
+            })
+              .then(function (response) {
+                return response.arrayBuffer();
+              })
+              .then(function (data) {
+                keySession.update(data);
+              });
+          });
+
+          keySession.generateRequest('keyids', your_init_data);
+        });
+    </script>
+  </body>
+</html>
