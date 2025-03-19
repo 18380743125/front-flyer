@@ -1,4 +1,4 @@
-import { ListNode, getSize, reverseLinklist, print } from '../../utils/linklist.util';
+import { ListNode, getSize, reverseLinklist, print } from '../utils/linklist.util';
 
 /**
  * 两两交换链表中的节点

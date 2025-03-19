@@ -1,4 +1,4 @@
-import { ListNode, print } from '../../utils/linklist.util';
+import { ListNode, print } from '../utils/linklist.util';
 
 /**
  * 给你一个链表的头节点 head 和一个整数 val。请你删除链表中所有满足 Node.val == val 的节点，

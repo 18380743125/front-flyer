@@ -1,4 +1,4 @@
-import { ListNode } from '../../cat/data/node';
+import { ListNode } from '../data/node';
 
 /**
  * 环形链表Ⅱ

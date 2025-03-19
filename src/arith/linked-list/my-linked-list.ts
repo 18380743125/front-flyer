@@ -1,4 +1,4 @@
-import { ListNode } from '../../utils/linklist.util';
+import { ListNode } from '../utils/linklist.util';
 
 /**
  * 设计单链表带头节点

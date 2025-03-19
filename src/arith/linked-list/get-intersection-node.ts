@@ -1,4 +1,4 @@
-import { getSize, ListNode, print } from '../../utils/linklist.util';
+import { getSize, ListNode, print } from '../utils/linklist.util';
 
 /**
  * 链表相交

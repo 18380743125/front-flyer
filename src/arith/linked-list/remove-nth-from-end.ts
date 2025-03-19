@@ -1,5 +1,5 @@
-import { ListNode } from '../../cat/data/node';
-import { print } from '../../utils/linklist.util';
+import { ListNode } from '../data/node';
+import { print } from '../utils/linklist.util';
 
 /**
  * 删除链表的倒数第 N 个节点
